@@ -1,0 +1,102 @@
+*{
+   margin: 0; 
+   padding: 0;
+   box-sizing: border-box ;
+}
+
+.main{
+    width: 100%;
+}
+
+.contenedor-1{
+    width: 100%;
+    height: 100vh;
+    
+    background-position:center;
+    background-size: 150%;
+}
+
+.cabecera{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 150px;
+    display: flex;
+    overflow: hidden;
+}
+
+.logo{
+    width: 20%;
+    background-color: #fff;
+    padding-left: 100px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin: auto;
+}
+
+.navegacion{
+    width: 80%;
+    background-color: #fff;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-right: 100px;
+}
+
+.link{
+    color: #097FF5 ;
+    padding: 70px 30px;
+    text-decoration: none;
+    font-size: 24px;
+
+}
+.link:hover{
+    color: #8709f5 ;
+    padding: 70px 30px;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.banner{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/fondo-01.jpg);
+    background-position:center;
+    background-size: 100%;
+    padding-left: 50px;
+}
+
+.banner_textos{
+    width: 50%;
+   
+}
+ .banner_textos h1{
+    font-size: 75px;
+    margin: 20px 0px 20px 0px;
+    color: #26065B;
+   
+
+ }
+ .banner_textos p {
+    font-size: 36px;
+    margin: 20px 0px 150px 10px;
+    color: #000000;
+   
+}
+.banner_textos a {
+    
+    background-color: #339EDB;
+    width: 50%;
+    padding: 20px 50px ;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+    border-radius: 40px;   
+    margin-left: 50px;
+}
+.banner_textos a:hover {
+    background-color: #8709f5;
+    color: #fff;   
+    padding: 20px 50px ; 
+}
